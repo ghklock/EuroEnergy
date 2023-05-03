@@ -26,7 +26,14 @@ body {
 
 .column {
   float: left;
-  width: 50%;
+}
+
+.left {
+  width: 30%;
+}
+
+.right {
+  width: 60%;
 }
 
 /* Clear floats after the columns */
@@ -35,3 +42,4 @@ body {
   display: table;
   clear: both;
 }
+
